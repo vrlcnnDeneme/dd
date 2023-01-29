@@ -53,7 +53,7 @@ const MainSection = () => {
 				infinite={true}
 			>
 				{images.map((image, idx) => {
-					return <div key={idx} style={{ width: '315px' }}>
+					return <div key={idx}>
 						<img src={image} />
 					</div>
 				})}
