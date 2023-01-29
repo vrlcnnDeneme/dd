@@ -15,10 +15,9 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-         
-         
-          Learn React with vural
-
+          <div className="text-3xl font-bold underline">
+            Learn React with vural
+          </div>
         </a>
       </header>
     </div>
