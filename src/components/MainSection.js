@@ -99,19 +99,17 @@ const MainSection = () => {
 				<h2 className='mx-5 text-3xl font-bold'>One More&apos;a Nasıl Üye Olunur?</h2>
 				<hr className="w-32 h-1 my-8 bg-gray-200 border-0 rounded" style={{ backgroundColor: '#2250f4' }} />
 			</div>
-			<div className='text-center mt-6'>
-				<p>
+			<div className='text-center mt-6 text-xl'>
+				<p className='mt-3'>
 					<b>Dünyanın dört bir yanında sizin gibi düşünen insanların tutkusuna ortak olun !</b>
 				</p>
-				<p>
-					One More Üyelik işlemlerinizi aşağıda bulunan son derece basit 3 adımla gerçekleştirebilirsiniz.
-					<p><b>1. Adım : &apos;One More Üyelik Formu&apos;</b> bağlantısına tıklayarak açılan formu doldurup &apos;Kayıt ol&apos; düğmesiyle üyeliğinizi kolaylıkla oluşturabilirsiniz.</p>
-					<p>
-						<b>2. Adım : </b>Başarıyla oluşturulan kaydın ardından formda belirtmiş olduğunuz mail adresinizin ön adı (@ simgesinden önceki kısım) sistem tarafından kullanıcı adı olarak tanımlanır ve şifreniz aynı mail adresinize gönderilir. (lütfen mail adresinizi doğru yazdığınızdan emin olunuz.)
-					</p>
-					<p>
-						<b>3. Adım :</b> Kullanıcı adı ve şifreniz ile birlikte. Siparişlerinizi oluşturulacağınız ve ekibinizin genel kontrolünü sağlayacağınız <b>&apos;One More Back Office&apos;</b> platformuna giriş yaparak faaliyete başlayabilirsiniz.
-					</p>
+				<p className='mt-3'>One More Üyelik işlemlerinizi aşağıda bulunan son derece basit 3 adımla gerçekleştirebilirsiniz.</p>
+				<p><b>1. Adım : &apos;One More Üyelik Formu&apos;</b> bağlantısına tıklayarak açılan formu doldurup &apos;Kayıt ol&apos; düğmesiyle üyeliğinizi kolaylıkla oluşturabilirsiniz.</p>
+				<p className='mt-3'>
+					<b>2. Adım : </b>Başarıyla oluşturulan kaydın ardından formda belirtmiş olduğunuz mail adresinizin ön adı (@ simgesinden önceki kısım) sistem tarafından kullanıcı adı olarak tanımlanır ve şifreniz aynı mail adresinize gönderilir. (lütfen mail adresinizi doğru yazdığınızdan emin olunuz.)
+				</p>
+				<p className='mt-3'>
+					<b>3. Adım :</b> Kullanıcı adı ve şifreniz ile birlikte. Siparişlerinizi oluşturulacağınız ve ekibinizin genel kontrolünü sağlayacağınız <b>&apos;One More Back Office&apos;</b> platformuna giriş yaparak faaliyete başlayabilirsiniz.
 				</p>
 			</div>
 		</div>
