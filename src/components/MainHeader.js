@@ -2,7 +2,7 @@ import React from 'react'
 
 const MainHeader = () => {
 	return (
-		<div className="min-w-full flex">
+		<div className="min-w-full flex justify-between">
 			<div>
 				LOGO
 			</div>
