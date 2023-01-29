@@ -55,7 +55,7 @@ const MainSection = () => {
 				>
 					{images.map((image, idx) => {
 						return <div key={idx}>
-							<img src={image} />
+							<img src={image} className="h-80" />
 						</div>
 					})}
 
