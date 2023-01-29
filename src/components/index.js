@@ -1,3 +1,4 @@
 import TopHeader from "./TopHeader";
+import MainHeader from "./MainHeader";
 
-export default TopHeader;
+export { TopHeader, MainHeader };
