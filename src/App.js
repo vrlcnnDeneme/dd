@@ -1,11 +1,12 @@
 import React from 'react'
-import { MainHeader, TopHeader } from './components'
+import { MainHeader, TopHeader, MainSection } from './components'
 
 function App () {
 	return (
 		<div className="App">
 			<TopHeader />
 			<MainHeader />
+			<MainSection />
 		</div>
 	)
 }
