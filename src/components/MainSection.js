@@ -47,7 +47,7 @@ const MainSection = () => {
 				Daha mutlu , daha enerjik, daha sağlıklı olmayı hak ediyoruz. Bu konuda yaşam kalitenizi destekleyecek ürünlerimiz ile tanışın.
 				</p>
 			</div>
-			<div className='h-56 max-h-64'>
+			<div>
 				<Carousel
 					responsive={responsive}
 					ssr={true}
