@@ -46,17 +46,19 @@ const MainSection = () => {
 				Daha mutlu , daha enerjik, daha sağlıklı olmayı hak ediyoruz. Bu konuda yaşam kalitenizi destekleyecek ürünlerimiz ile tanışın.
 			</p>
 		</div>
-		<Carousel
-			responsive={responsive}
-			infinite={true}
-		>
-			{images.map((image, idx) => {
-				return <div key={idx} style={{ width: '315px' }}>
-					<img src={PainlessImg} />
-				</div>
-			})}
+		<div className='flex items-center'>
+			<Carousel
+				responsive={responsive}
+				infinite={true}
+			>
+				{images.map((image, idx) => {
+					return <div key={idx} style={{ width: '315px' }}>
+						<img src={PainlessImg} />
+					</div>
+				})}
 
-		</Carousel>;
+			</Carousel>
+		</div>
 	</div>
 }
 
