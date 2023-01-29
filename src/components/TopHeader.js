@@ -1,7 +1,7 @@
 import React from 'react'
 
 const TopHeader = () => {
-	return <div className='hidden md:block'>
+	return <div className='hidden md:block py-2.5'>
 		<span className="float-left">
 			<ul className='list-none pl-3'>
 				<li className='inline-block pl-3'>
