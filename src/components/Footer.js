@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Footer = () => {
-	<div className='my-24'>
+	return <div className='my-24'>
 		<div>
 			Logo
 			<hr className="h-1 my-8 bg-gray-200 border-0 rounded" style={{ backgroundColor: '#2250f4' }} />
