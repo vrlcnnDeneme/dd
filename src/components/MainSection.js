@@ -49,6 +49,7 @@ const MainSection = () => {
 		<div className='flex items-center'>
 			<Carousel
 				responsive={responsive}
+				ssr={true}
 				infinite={true}
 			>
 				{images.map((image, idx) => {
