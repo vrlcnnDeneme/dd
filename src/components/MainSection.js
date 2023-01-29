@@ -1,6 +1,8 @@
 import React from 'react'
 import Carousel from 'react-multi-carousel'
 import 'react-multi-carousel/lib/styles.css'
+import PainlessImg from '../assets/images/painless_night_glu.png'
+
 const responsive = {
 	superLargeDesktop: {
 		// the naming can be any, depends on you.
@@ -37,7 +39,9 @@ const MainSection = () => {
 			</p>
 		</div>
 		<Carousel responsive={responsive}>
-			<div>Item 1</div>
+			<div>
+				<img src={PainlessImg} />
+			</div>
 			<div>Item 2</div>
 			<div>Item 3</div>
 			<div>Item 4</div>
