@@ -33,32 +33,64 @@ const images = [
 
 const MainSection = () => {
 	return <div>
-		<div className='flex justify-center items-center'>
-			<hr className="w-32 h-1 my-8 bg-gray-200 border-0 rounded" style={{ backgroundColor: '#2250f4' }} />
-			<h2 className='mx-5 text-3xl font-bold'>Ürünlerimiz</h2>
-			<hr className="w-32 h-1 my-8 bg-gray-200 border-0 rounded" style={{ backgroundColor: '#2250f4' }} />
-		</div>
-		<div className='text-center mt-6'>
-			<p>
+		<div>
+			<div className='flex justify-center items-center'>
+				<hr className="w-32 h-1 my-8 bg-gray-200 border-0 rounded" style={{ backgroundColor: '#2250f4' }} />
+				<h2 className='mx-5 text-3xl font-bold'>Ürünlerimiz</h2>
+				<hr className="w-32 h-1 my-8 bg-gray-200 border-0 rounded" style={{ backgroundColor: '#2250f4' }} />
+			</div>
+			<div className='text-center mt-6'>
+				<p>
 				Enerjinizin düşük ve sağlığınızın kötü olmasının nedenleri genelde çevresel stres etkenleri ve günümüzdeki beslenme alışkanlıklarıdır.
-			</p>
-			<p>
+				</p>
+				<p>
 				Daha mutlu , daha enerjik, daha sağlıklı olmayı hak ediyoruz. Bu konuda yaşam kalitenizi destekleyecek ürünlerimiz ile tanışın.
-			</p>
+				</p>
+			</div>
+			<div>
+				<Carousel
+					responsive={responsive}
+					ssr={true}
+					infinite={true}
+				>
+					{images.map((image, idx) => {
+						return <div key={idx}>
+							<img src={image} />
+						</div>
+					})}
+
+				</Carousel>
+			</div>
 		</div>
 		<div>
-			<Carousel
-				responsive={responsive}
-				ssr={true}
-				infinite={true}
-			>
-				{images.map((image, idx) => {
-					return <div key={idx}>
-						<img src={image} />
-					</div>
-				})}
-
-			</Carousel>
+			<div className='flex justify-center items-center'>
+				<hr className="w-32 h-1 my-8 bg-gray-200 border-0 rounded" style={{ backgroundColor: '#2250f4' }} />
+				<h2 className='mx-5 text-3xl font-bold'>İş Modeli</h2>
+				<hr className="w-32 h-1 my-8 bg-gray-200 border-0 rounded" style={{ backgroundColor: '#2250f4' }} />
+			</div>
+			<div className='text-center mt-6'>
+				<p>
+					<b>Benzersiz iş fırsatı ile kendi şartlarınıza göre gelir elde edin !</b>
+				</p>
+				<p>
+				150&apos;den fazla ülkede yüzbinlerce insanın kendi işlerinde , kendi belirledikleri koşullara göre ek gelir yada finansal özgürlük elde etmelerini sağlayan bir iş modelidir. Başkalarının yaşam kalitelerini kontrol altına almalarına yardımcı olarak gelir elde edin. Hayatınızı dilediğiniz gibi özgürce yaşayın.
+				</p>
+			</div>
+		</div>
+		<div>
+			<div className='flex justify-center items-center'>
+				<hr className="w-32 h-1 my-8 bg-gray-200 border-0 rounded" style={{ backgroundColor: '#2250f4' }} />
+				<h2 className='mx-5 text-3xl font-bold'>Etkinlikler</h2>
+				<hr className="w-32 h-1 my-8 bg-gray-200 border-0 rounded" style={{ backgroundColor: '#2250f4' }} />
+			</div>
+			<div className='text-center mt-6'>
+				<p>
+					<b>Dünyanın dört bir yanında sizin gibi düşünen insanların tutkusuna ortak olun !</b>
+				</p>
+				<p>
+					Kendi işinizi başlatmak için gerekli temel adımlar ile ihtiyacınız olan tüm eğitim desteklerinden faydalanın.
+				</p>
+			</div>
 		</div>
 	</div>
 }
