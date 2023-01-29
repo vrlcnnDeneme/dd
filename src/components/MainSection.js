@@ -53,7 +53,7 @@ const MainSection = () => {
 			>
 				{images.map((image, idx) => {
 					return <div key={idx} style={{ width: '315px' }}>
-						<img src={PainlessImg} />
+						<img src={image} />
 					</div>
 				})}
 
