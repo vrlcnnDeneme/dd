@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Footer = () => {
-	return <div className='my-24' style={{ backgroundColor: '#fafafa' }}>
+	return <div className='my-24' style={{ backgroundColor: '#f8f8f8' }}>
 		<div className='container mx-auto max-w-screen-lg px-5'>
 			<div>
 			Logo
