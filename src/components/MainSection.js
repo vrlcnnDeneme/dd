@@ -33,7 +33,7 @@ const images = [
 
 const MainSection = () => {
 	return <div>
-		<div className='container mx-auto'>
+		<div className='container mx-auto px-5'>
 			<div>
 				<div className='flex justify-center items-center'>
 					<hr className="w-32 h-1 my-8 bg-gray-200 border-0 rounded" style={{ backgroundColor: '#2250f4' }} />
@@ -101,15 +101,15 @@ const MainSection = () => {
 					<hr className="w-32 h-1 my-8 bg-gray-200 border-0 rounded" style={{ backgroundColor: '#2250f4' }} />
 				</div>
 				<div className='text-center mt-6 text-xl'>
-					<p className='mt-3'>
+					<p className='mt-6'>
 						<b>Dünyanın dört bir yanında sizin gibi düşünen insanların tutkusuna ortak olun !</b>
 					</p>
-					<p className='mt-3'>One More Üyelik işlemlerinizi aşağıda bulunan son derece basit 3 adımla gerçekleştirebilirsiniz.</p>
+					<p className='mt-6'>One More Üyelik işlemlerinizi aşağıda bulunan son derece basit 3 adımla gerçekleştirebilirsiniz.</p>
 					<p><b>1. Adım : &apos;One More Üyelik Formu&apos;</b> bağlantısına tıklayarak açılan formu doldurup &apos;Kayıt ol&apos; düğmesiyle üyeliğinizi kolaylıkla oluşturabilirsiniz.</p>
-					<p className='mt-3'>
+					<p className='mt-6'>
 						<b>2. Adım : </b>Başarıyla oluşturulan kaydın ardından formda belirtmiş olduğunuz mail adresinizin ön adı (@ simgesinden önceki kısım) sistem tarafından kullanıcı adı olarak tanımlanır ve şifreniz aynı mail adresinize gönderilir. (lütfen mail adresinizi doğru yazdığınızdan emin olunuz.)
 					</p>
-					<p className='mt-3'>
+					<p className='mt-6'>
 						<b>3. Adım :</b> Kullanıcı adı ve şifreniz ile birlikte. Siparişlerinizi oluşturulacağınız ve ekibinizin genel kontrolünü sağlayacağınız <b>&apos;One More Back Office&apos;</b> platformuna giriş yaparak faaliyete başlayabilirsiniz.
 					</p>
 				</div>
