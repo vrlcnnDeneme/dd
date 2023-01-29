@@ -96,7 +96,7 @@ const MainSection = () => {
 		<div>
 			<div className='flex justify-center items-center'>
 				<hr className="w-32 h-1 my-8 bg-gray-200 border-0 rounded" style={{ backgroundColor: '#2250f4' }} />
-				<h2 className='mx-5 text-3xl font-bold'>Etkinlikler</h2>
+				<h2 className='mx-5 text-3xl font-bold'>One More&apos;a Nasıl Üye Olunur?</h2>
 				<hr className="w-32 h-1 my-8 bg-gray-200 border-0 rounded" style={{ backgroundColor: '#2250f4' }} />
 			</div>
 			<div className='text-center mt-6'>
@@ -105,11 +105,13 @@ const MainSection = () => {
 				</p>
 				<p>
 					One More Üyelik işlemlerinizi aşağıda bulunan son derece basit 3 adımla gerçekleştirebilirsiniz.
-					1. Adım : &apos;One More Üyelik Formu&apos; bağlantısına tıklayarak açılan formu doldurup &apos;Kayıt ol&apos; düğmesiyle üyeliğinizi kolaylıkla oluşturabilirsiniz.
-					2. Adım : Başarıyla oluşturulan kaydın ardından formda belirtmiş olduğunuz mail adresinizin ön adı
-					(@ simgesinden önceki kısım) sistem tarafından kullanıcı adı olarak tanımlanır ve şifreniz aynı mail adresinize gönderilir. (lütfen mail adresinizi doğru yazdığınızdan emin olunuz.)
-					3. Adım : Kullanıcı adı ve şifreniz ile birlikte. Siparişlerinizi oluşturulacağınız ve ekibinizin genel kontrolünü sağlayacağınız &apos;One More Back Office&apos; platformuna giriş yaparak faaliyete başlayabilirsiniz.
-
+					<p><b>1. Adım : &apos;One More Üyelik Formu&apos;</b> bağlantısına tıklayarak açılan formu doldurup &apos;Kayıt ol&apos; düğmesiyle üyeliğinizi kolaylıkla oluşturabilirsiniz.</p>
+					<p>
+						<b>2. Adım : </b>Başarıyla oluşturulan kaydın ardından formda belirtmiş olduğunuz mail adresinizin ön adı (@ simgesinden önceki kısım) sistem tarafından kullanıcı adı olarak tanımlanır ve şifreniz aynı mail adresinize gönderilir. (lütfen mail adresinizi doğru yazdığınızdan emin olunuz.)
+					</p>
+					<p>
+						<b>3. Adım :</b> Kullanıcı adı ve şifreniz ile birlikte. Siparişlerinizi oluşturulacağınız ve ekibinizin genel kontrolünü sağlayacağınız <b>&apos;One More Back Office&apos;</b> platformuna giriş yaparak faaliyete başlayabilirsiniz.
+					</p>
 				</p>
 			</div>
 		</div>
