@@ -2,7 +2,7 @@ import React from 'react'
 
 const MainHeader = () => {
 	return (
-		<div className="min-w-full">
+		<div className="min-w-full flex">
 			<div>
 				LOGO
 			</div>
