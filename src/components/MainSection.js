@@ -33,7 +33,7 @@ const images = [
 
 const MainSection = () => {
 	return <div>
-		<div className='container mx-auto px-5'>
+		<div className='container mx-auto max-w-screen-lg px-5'>
 			<div>
 				<div className='flex justify-center items-center'>
 					<hr className="w-32 h-1 my-8 bg-gray-200 border-0 rounded" style={{ backgroundColor: '#2250f4' }} />
