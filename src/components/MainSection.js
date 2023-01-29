@@ -5,7 +5,6 @@ import PainlessImg from '../assets/images/painless_night_glu.png'
 
 const responsive = {
 	superLargeDesktop: {
-		// the naming can be any, depends on you.
 		breakpoint: { max: 4000, min: 3000 },
 		items: 5
 	},
@@ -23,6 +22,15 @@ const responsive = {
 	}
 }
 
+const images = [
+	PainlessImg,
+	PainlessImg,
+	PainlessImg,
+	PainlessImg,
+	PainlessImg,
+	PainlessImg
+]
+
 const MainSection = () => {
 	return <div>
 		<div className='flex justify-center items-center'>
@@ -38,13 +46,16 @@ const MainSection = () => {
 				Daha mutlu , daha enerjik, daha sağlıklı olmayı hak ediyoruz. Bu konuda yaşam kalitenizi destekleyecek ürünlerimiz ile tanışın.
 			</p>
 		</div>
-		<Carousel responsive={responsive}>
-			<div>
-				<img src={PainlessImg} />
-			</div>
-			<div>Item 2</div>
-			<div>Item 3</div>
-			<div>Item 4</div>
+		<Carousel
+			responsive={responsive}
+			infinite={true}
+		>
+			{images.map((image, idx) => {
+				return <div key={idx}>
+					<img src={PainlessImg} />
+				</div>
+			})}
+
 		</Carousel>;
 	</div>
 }
