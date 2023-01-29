@@ -17,6 +17,13 @@ const MainHeader = () => {
 			<div className='md:hidden'>
 				<button style={{ backgroundColor: '#2250f4', color: '#ffffff' }}>Kayıt Ol</button>
 			</div>
+			<div className='hidden md:block'>
+				<button style={{ backgroundColor: '#2250f4', color: '#ffffff' }}>Kayıt Ol</button>
+			</div>
+			<div className='md:hidden'>
+				<svg className="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" aria-hidden="true" />
+			</div>
+
 		</div>
 	)
 }
