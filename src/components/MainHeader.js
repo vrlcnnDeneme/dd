@@ -2,16 +2,16 @@ import React from 'react'
 
 const MainHeader = () => {
 	return (
-		<div className="min-w-full flex justify-between">
+		<div className="min-w-full flex justify-between py-3.5">
 			<div>
 				LOGO
 			</div>
 			<div className='hidden md:block'>
 				<ul className='list-none'>
 					<li className='inline-block'>Ana Sayfa</li>
-					<li className='inline-block'>Hakkımda</li>
-					<li className='inline-block'>Ürünler</li>
-					<li className='inline-block'>İletişim</li>
+					<li className='inline-block pl-2'>Hakkımda</li>
+					<li className='inline-block pl-2'>Ürünler</li>
+					<li className='inline-block pl-2'>İletişim</li>
 				</ul>
 			</div>
 			<div className='md:hidden'>
