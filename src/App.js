@@ -1,5 +1,3 @@
-import logo from './logo.svg';
-import './App.css';
 import { TopHeader, MainHeader } from './components';
 
 function App() {
