@@ -14,10 +14,10 @@ const MainHeader = () => {
 					<li className='inline-block pl-2'>İletişim</li>
 				</ul>
 			</div>
-			<div className='md:hidden p-2 pr-5'>
+			<div className='md:hidden p-5'>
 				<button className='rounded-xl' style={{ backgroundColor: '#2250f4', color: '#ffffff' }}>Kayıt Ol</button>
 			</div>
-			<div className='hidden md:block p-2'>
+			<div className='hidden md:block p-5 mr-5'>
 				<button className='rounded-xl' style={{ backgroundColor: '#2250f4', color: '#ffffff' }}>Kayıt Ol</button>
 			</div>
 			<div className='md:hidden'>
