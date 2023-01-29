@@ -1,13 +1,13 @@
 import React from 'react'
-import { TopHeader, MainHeader } from './components'
+import { TopHeader } from './components'
 
 function App () {
 	return (
 		<div className="App">
 			<TopHeader />
-			<MainHeader />
 		</div>
 	)
 }
+// <MainHeader />
 
 export default App
