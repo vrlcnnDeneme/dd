@@ -15,10 +15,10 @@ const MainHeader = () => {
 				</ul>
 			</div>
 			<div className='md:hidden'>
-				<button className='rounded-xl p-5' style={{ backgroundColor: '#2250f4', color: '#ffffff' }}>Kayıt Ol</button>
+				<button className='rounded-xl p-3' style={{ backgroundColor: '#2250f4', color: '#ffffff' }}>Kayıt Ol</button>
 			</div>
 			<div className='hidden md:block mr-5'>
-				<button className='rounded-xl p-5 ' style={{ backgroundColor: '#2250f4', color: '#ffffff' }}>Kayıt Ol</button>
+				<button className='rounded-xl p-3 ' style={{ backgroundColor: '#2250f4', color: '#ffffff' }}>Kayıt Ol</button>
 			</div>
 			<div className='md:hidden'>
 				<svg className="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" aria-hidden="true" />
