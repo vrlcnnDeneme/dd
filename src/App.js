@@ -1,5 +1,5 @@
 import React from 'react'
-import { MainHeader, TopHeader, MainSection } from './components'
+import { MainHeader, TopHeader, MainSection, Footer } from './components'
 
 function App () {
 	return (
@@ -7,6 +7,7 @@ function App () {
 			<TopHeader />
 			<MainHeader />
 			<MainSection />
+			<Footer />
 		</div>
 	)
 }
