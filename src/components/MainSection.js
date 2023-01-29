@@ -105,10 +105,10 @@ const MainSection = () => {
 				</p>
 				<p>
 					One More Üyelik işlemlerinizi aşağıda bulunan son derece basit 3 adımla gerçekleştirebilirsiniz.
-					1. Adım : &apos;One More Üyelik Formu&apos; bağlantısına tıklayarak açılan formu doldurup "Kayıt ol" düğmesiyle üyeliğinizi kolaylıkla oluşturabilirsiniz.
+					1. Adım : &apos;One More Üyelik Formu&apos; bağlantısına tıklayarak açılan formu doldurup &apos;Kayıt ol&apos; düğmesiyle üyeliğinizi kolaylıkla oluşturabilirsiniz.
 					2. Adım : Başarıyla oluşturulan kaydın ardından formda belirtmiş olduğunuz mail adresinizin ön adı
 					(@ simgesinden önceki kısım) sistem tarafından kullanıcı adı olarak tanımlanır ve şifreniz aynı mail adresinize gönderilir. (lütfen mail adresinizi doğru yazdığınızdan emin olunuz.)
-					3. Adım : Kullanıcı adı ve şifreniz ile birlikte. Siparişlerinizi oluşturulacağınız ve ekibinizin genel kontrolünü sağlayacağınız "One More Back Office" platformuna giriş yaparak faaliyete başlayabilirsiniz.
+					3. Adım : Kullanıcı adı ve şifreniz ile birlikte. Siparişlerinizi oluşturulacağınız ve ekibinizin genel kontrolünü sağlayacağınız &apos;One More Back Office&apos; platformuna giriş yaparak faaliyete başlayabilirsiniz.
 
 				</p>
 			</div>
