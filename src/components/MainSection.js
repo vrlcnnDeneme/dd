@@ -33,84 +33,86 @@ const images = [
 
 const MainSection = () => {
 	return <div>
-		<div>
-			<div className='flex justify-center items-center'>
-				<hr className="w-32 h-1 my-8 bg-gray-200 border-0 rounded" style={{ backgroundColor: '#2250f4' }} />
-				<h2 className='mx-5 text-3xl font-bold'>Ürünlerimiz</h2>
-				<hr className="w-32 h-1 my-8 bg-gray-200 border-0 rounded" style={{ backgroundColor: '#2250f4' }} />
-			</div>
-			<div className='text-center mt-6'>
-				<p>
+		<div className='container mx-auto'>
+			<div>
+				<div className='flex justify-center items-center'>
+					<hr className="w-32 h-1 my-8 bg-gray-200 border-0 rounded" style={{ backgroundColor: '#2250f4' }} />
+					<h2 className='mx-5 text-3xl font-bold'>Ürünlerimiz</h2>
+					<hr className="w-32 h-1 my-8 bg-gray-200 border-0 rounded" style={{ backgroundColor: '#2250f4' }} />
+				</div>
+				<div className='text-center mt-6'>
+					<p>
 				Enerjinizin düşük ve sağlığınızın kötü olmasının nedenleri genelde çevresel stres etkenleri ve günümüzdeki beslenme alışkanlıklarıdır.
-				</p>
-				<p>
+					</p>
+					<p>
 				Daha mutlu , daha enerjik, daha sağlıklı olmayı hak ediyoruz. Bu konuda yaşam kalitenizi destekleyecek ürünlerimiz ile tanışın.
-				</p>
+					</p>
+				</div>
+				<div>
+					<Carousel
+						responsive={responsive}
+						ssr={true}
+						infinite={true}
+					>
+						{images.map((image, idx) => {
+							return <div key={idx}>
+								<img src={image} className="h-80" />
+							</div>
+						})}
+
+					</Carousel>
+				</div>
 			</div>
 			<div>
-				<Carousel
-					responsive={responsive}
-					ssr={true}
-					infinite={true}
-				>
-					{images.map((image, idx) => {
-						return <div key={idx}>
-							<img src={image} className="h-80" />
-						</div>
-					})}
-
-				</Carousel>
-			</div>
-		</div>
-		<div>
-			<div className='flex justify-center items-center'>
-				<hr className="w-32 h-1 my-8 bg-gray-200 border-0 rounded" style={{ backgroundColor: '#2250f4' }} />
-				<h2 className='mx-5 text-3xl font-bold'>İş Modeli</h2>
-				<hr className="w-32 h-1 my-8 bg-gray-200 border-0 rounded" style={{ backgroundColor: '#2250f4' }} />
-			</div>
-			<div className='text-center mt-6'>
-				<p>
-					<b>Benzersiz iş fırsatı ile kendi şartlarınıza göre gelir elde edin !</b>
-				</p>
-				<p>
+				<div className='flex justify-center items-center'>
+					<hr className="w-32 h-1 my-8 bg-gray-200 border-0 rounded" style={{ backgroundColor: '#2250f4' }} />
+					<h2 className='mx-5 text-3xl font-bold'>İş Modeli</h2>
+					<hr className="w-32 h-1 my-8 bg-gray-200 border-0 rounded" style={{ backgroundColor: '#2250f4' }} />
+				</div>
+				<div className='text-center mt-6'>
+					<p>
+						<b>Benzersiz iş fırsatı ile kendi şartlarınıza göre gelir elde edin !</b>
+					</p>
+					<p>
 				150&apos;den fazla ülkede yüzbinlerce insanın kendi işlerinde , kendi belirledikleri koşullara göre ek gelir yada finansal özgürlük elde etmelerini sağlayan bir iş modelidir. Başkalarının yaşam kalitelerini kontrol altına almalarına yardımcı olarak gelir elde edin. Hayatınızı dilediğiniz gibi özgürce yaşayın.
-				</p>
+					</p>
+				</div>
 			</div>
-		</div>
-		<div>
-			<div className='flex justify-center items-center'>
-				<hr className="w-32 h-1 my-8 bg-gray-200 border-0 rounded" style={{ backgroundColor: '#2250f4' }} />
-				<h2 className='mx-5 text-3xl font-bold'>Etkinlikler</h2>
-				<hr className="w-32 h-1 my-8 bg-gray-200 border-0 rounded" style={{ backgroundColor: '#2250f4' }} />
-			</div>
-			<div className='text-center mt-6'>
-				<p>
-					<b>Dünyanın dört bir yanında sizin gibi düşünen insanların tutkusuna ortak olun !</b>
-				</p>
-				<p>
+			<div>
+				<div className='flex justify-center items-center'>
+					<hr className="w-32 h-1 my-8 bg-gray-200 border-0 rounded" style={{ backgroundColor: '#2250f4' }} />
+					<h2 className='mx-5 text-3xl font-bold'>Etkinlikler</h2>
+					<hr className="w-32 h-1 my-8 bg-gray-200 border-0 rounded" style={{ backgroundColor: '#2250f4' }} />
+				</div>
+				<div className='text-center mt-6'>
+					<p>
+						<b>Dünyanın dört bir yanında sizin gibi düşünen insanların tutkusuna ortak olun !</b>
+					</p>
+					<p>
 					Kendi işinizi başlatmak için gerekli temel adımlar ile ihtiyacınız olan tüm eğitim desteklerinden faydalanın.
-				</p>
+					</p>
+				</div>
 			</div>
-		</div>
 
-		<div>
-			<div className='flex justify-center items-center'>
-				<hr className="w-32 h-1 my-8 bg-gray-200 border-0 rounded" style={{ backgroundColor: '#2250f4' }} />
-				<h2 className='mx-5 text-3xl font-bold'>One More&apos;a Nasıl Üye Olunur?</h2>
-				<hr className="w-32 h-1 my-8 bg-gray-200 border-0 rounded" style={{ backgroundColor: '#2250f4' }} />
-			</div>
-			<div className='text-center mt-6 text-xl'>
-				<p className='mt-3'>
-					<b>Dünyanın dört bir yanında sizin gibi düşünen insanların tutkusuna ortak olun !</b>
-				</p>
-				<p className='mt-3'>One More Üyelik işlemlerinizi aşağıda bulunan son derece basit 3 adımla gerçekleştirebilirsiniz.</p>
-				<p><b>1. Adım : &apos;One More Üyelik Formu&apos;</b> bağlantısına tıklayarak açılan formu doldurup &apos;Kayıt ol&apos; düğmesiyle üyeliğinizi kolaylıkla oluşturabilirsiniz.</p>
-				<p className='mt-3'>
-					<b>2. Adım : </b>Başarıyla oluşturulan kaydın ardından formda belirtmiş olduğunuz mail adresinizin ön adı (@ simgesinden önceki kısım) sistem tarafından kullanıcı adı olarak tanımlanır ve şifreniz aynı mail adresinize gönderilir. (lütfen mail adresinizi doğru yazdığınızdan emin olunuz.)
-				</p>
-				<p className='mt-3'>
-					<b>3. Adım :</b> Kullanıcı adı ve şifreniz ile birlikte. Siparişlerinizi oluşturulacağınız ve ekibinizin genel kontrolünü sağlayacağınız <b>&apos;One More Back Office&apos;</b> platformuna giriş yaparak faaliyete başlayabilirsiniz.
-				</p>
+			<div>
+				<div className='flex justify-center items-center'>
+					<hr className="w-32 h-1 my-8 bg-gray-200 border-0 rounded" style={{ backgroundColor: '#2250f4' }} />
+					<h2 className='mx-5 text-3xl font-bold'>One More&apos;a Nasıl Üye Olunur?</h2>
+					<hr className="w-32 h-1 my-8 bg-gray-200 border-0 rounded" style={{ backgroundColor: '#2250f4' }} />
+				</div>
+				<div className='text-center mt-6 text-xl'>
+					<p className='mt-3'>
+						<b>Dünyanın dört bir yanında sizin gibi düşünen insanların tutkusuna ortak olun !</b>
+					</p>
+					<p className='mt-3'>One More Üyelik işlemlerinizi aşağıda bulunan son derece basit 3 adımla gerçekleştirebilirsiniz.</p>
+					<p><b>1. Adım : &apos;One More Üyelik Formu&apos;</b> bağlantısına tıklayarak açılan formu doldurup &apos;Kayıt ol&apos; düğmesiyle üyeliğinizi kolaylıkla oluşturabilirsiniz.</p>
+					<p className='mt-3'>
+						<b>2. Adım : </b>Başarıyla oluşturulan kaydın ardından formda belirtmiş olduğunuz mail adresinizin ön adı (@ simgesinden önceki kısım) sistem tarafından kullanıcı adı olarak tanımlanır ve şifreniz aynı mail adresinize gönderilir. (lütfen mail adresinizi doğru yazdığınızdan emin olunuz.)
+					</p>
+					<p className='mt-3'>
+						<b>3. Adım :</b> Kullanıcı adı ve şifreniz ile birlikte. Siparişlerinizi oluşturulacağınız ve ekibinizin genel kontrolünü sağlayacağınız <b>&apos;One More Back Office&apos;</b> platformuna giriş yaparak faaliyete başlayabilirsiniz.
+					</p>
+				</div>
 			</div>
 		</div>
 	</div>
